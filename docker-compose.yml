@@ -11,7 +11,7 @@ services:
       - "3007:3000"  # Map port 3007 của host đến port 3000 trong container
     environment:
       # React environment variables
-      REACT_APP_API_URL: http://localhost:8080/api
+      REACT_APP_API_URL: https://shopee.api.nguocchieuvangle.io.vn/api
       PORT: 3000
       CHOKIDAR_USEPOLLING: "true"  # Enable hot reload trong Docker
       WDS_SOCKET_PORT: 3007  # WebSocket port cho hot reload
